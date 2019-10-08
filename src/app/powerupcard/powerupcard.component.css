@@ -1,0 +1,197 @@
+ 
+body{
+   background-color: darkgray;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+#wrap{
+  width: 600Cpx;
+}
+.row{
+  margin-right:0px;
+}
+.left{
+  width: 300px;
+  height: 500px;
+  float: left;
+  padding-top:100px;
+  margin-right:50px;
+}
+.right{
+  width: 300px;
+  height: 500px;
+  float: Right;
+  padding-top:100px;
+  margin-left: 50px;
+}
+
+.two-cards {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* padding-top:100px; */
+     padding: 50px;
+     
+     
+}
+
+.example-card {
+    width: 400px;
+    height:auto;
+    font-size: 1.3em;
+    padding: 20px;
+}
+    
+ .example-card {
+    align-items: flex-start;
+
+
+}
+/*
+.mat-toolbar-row{
+    justify-content: center;
+    margin: 0;
+}
+
+.proflo-login-flex{
+    display: flex;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+.login-img{
+    flex: 1;
+    height: 100%;
+}
+
+.login-form{
+    flex: 1;
+align-items: center;
+height: 100%;
+}
+*/
+.mat-card-content{
+margin-left: 200px;
+}
+  
+
+#carousel-container-id {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 680px;
+    margin-top: 40px;
+    max-height: 430px;
+    margin: 40px 10px;
+  }
+  mat-toolbar {
+    width: 100;
+  }
+  .proflo-login-flex {
+    display: flex;
+    padding-top:30px;
+    flex-wrap: wrap;
+    width: 75%;
+  }
+  .container-fluid{
+    flex: 1;
+  }
+  
+  .two-cards {
+    flex: 1;
+    /* align-items: center; */
+    height: 100%;
+  }
+  
+  .mat-card-content {
+    margin-left: 200px;
+  }
+
+  @media screen and (max-width: 320px) {
+    #img-id {
+      width: 300px;
+      height: 330px;
+    }
+
+    #logo-img-id {
+      margin-top: -2.5rem;
+    }
+
+    #carousel-container-id {
+      /* display: flex;
+        flex-wrap: wrap; */
+      margin: 10px;
+      /* height: auto; */
+    }
+    
+  }
+
+  .proflo-login-flex-hero-unit {
+    flex: 2;
+  }
+  
+  .login-form-group {
+    width: 100%;
+  }
+  
+  .login-form-container {
+    width: 100%;
+    font-size: 1.3em;
+    padding: 20px;
+  }
+  
+  .login-form-action-btns {
+    display: flex;
+  }
+  
+  .icon {
+    height: 10px;
+    width: 10px;
+  }
+
+  .app-toolbar {
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+  }
+
+  .one{
+    background-color: #941153
+   }
+
+  .title-center {
+    margin: 0 auto;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    padding: 4px;
+    font-family: 'Satisfy', cursive;
+   }
+
+   .icon {
+    height: 10px;
+    width: 50px !important;
+   }
+
+   #logo-img-id {
+    margin-left: 10px;
+   }
+
+   #logo-img-id {
+    height: 3rem;
+    width: 3rem;
+    margin-top: -1.5rem; 
+   }
+
+   /* #logo-img-id {
+      margin-top: -2.5rem;
+    } */
+    
+  
+   

@@ -1,0 +1,30 @@
+<mat-card class="Github-card" layout-align="center center" id="all">
+
+  <mat-card-title>Github Form</mat-card-title>
+
+  <mat-card-content>
+    <form class="my-form">
+        <!-- <mat-form-field class="full-width"> -->
+            <!-- <mat-label>UserName</mat-label> -->
+            <!-- <input matInput placeholder="TeamId" [(ngModel)]="TeamId" name="TeamId" required>
+          </mat-form-field><br> -->
+      <mat-form-field class="full-width">
+        <!-- <mat-label>UserName</mat-label> -->
+        <input matInput placeholder="UserName" [(ngModel)]="UName" name="UserName" required>
+      </mat-form-field><br>
+       
+      <mat-form-field class="full-width">
+        <!-- <mat-label>UserRepository</mat-label> -->
+        <input matInput placeholder="UserRepository" [(ngModel)]="Urepository" type="UserRepository"
+          name="UserRepository" required>
+      </mat-form-field><br>
+
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="primary" (click)="githubRegister()">Get</button>
+  </mat-card-actions>
+  
+ 
+
+</mat-card>

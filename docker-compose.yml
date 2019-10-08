@@ -1,0 +1,9 @@
+version: '3.0'
+services:
+ marketplace-microservice-backend:
+   image: 'proflo/marketplace-microservice-backend'
+   build: '.'
+   labels:
+     app: core-microservice-frontend
+   ports:
+     - "5000:80"
